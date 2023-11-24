@@ -1,0 +1,74 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    font-family: MinhaFonteLocal;
+    min-height: 100vh;
+    background: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: left;
+    color: white;
+}
+
+
+nav {
+    text-align: center;
+    background-color: black; 
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: blue; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+nav a:hover {
+    color: red; 
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-destaque {
+    color: aqua;
+}
+
+#centralizando {
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin: auto;
+}
